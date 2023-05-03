@@ -49,16 +49,19 @@ main section {
 }
 main .bubbles {
   @apply absolute bottom-0 left-0 h-[40%] w-full;
-  background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%23ffffff' fill-opacity='0.5' fill-rule='evenodd'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%23ffffff' fill-opacity='0.3' fill-rule='evenodd'/%3E%3C/svg%3E");
   background-repeat: inherit;
   background-position: center;
-  background-size: 15%;
+  background-size: 20%;
 }
 main .bubbles::before {
   content: "";
   @apply absolute h-full w-full;
   background-image: linear-gradient(to top, transparent, var(--black1) 50%);
 }
+
+/* Navbar  */
+
 nav {
   @apply py-4 flex justify-between text-xl sticky top-0;
   background: var(--black1);
@@ -96,15 +99,29 @@ section {
 .home .handles {
   @apply flex gap-6 mt-4;
 }
-/* .home .picCover{
+.picCover {
   @apply relative;
-} */
-.picCover img{
-  @apply h-[25rem] ;
+  animation: lift 3s ease-in-out infinite;
 }
-/* .home .picCover svg{
-  @apply w-[350px] scale-[1.28];
-} */
+.picCover img {
+  @apply h-[25rem];
+}
+@keyframes lift {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-1rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.picCover::before {
+  @apply absolute h-[50%] bottom-[15%] left-[25%] w-[50%] rotate-45 -z-10;
+  content: "";
+  box-shadow: 25px 25px 60px var(--skyblue1);
+}
 .home .handles li {
   @apply w-min p-2.5 rounded-full cursor-pointer;
   border: 2.5px solid var(--skyblue1);
@@ -134,22 +151,60 @@ section {
 }
 
 /* Skills Page  */
-
-.skill svg {
+.skills {
+  @apply flex flex-col;
+}
+.skill {
+  @apply relative w-min;
+}
+.skill .circle {
   @apply relative rotate-[270deg];
   width: 150px;
   height: 150px;
 }
 
-.skill svg circle {
+.skill .circle circle {
   @apply w-full h-full fill-transparent stroke-neutral-500 stroke-[4];
   transform: translate(5px, 5px);
 }
 
-.skill svg circle:nth-child(2) {
-  stroke: #ff2972;
+.skill .circle circle:nth-child(2) {
+  stroke: var(--skyblue1);
 }
 
+.skill .circle circle:nth-child(2) {
+  stroke-dasharray: 360;
+}
+
+.skill .dot {
+  @apply h-full w-full absolute z-10 flex justify-center;
+}
+.skill .dot::before {
+  @apply absolute w-[15px] h-[15px] rounded-full top-[-3px] z-20;
+  background: white;
+  content: "";
+}
+.skill .dot::after {
+  @apply absolute w-[7px] h-[7px] rounded-full top-[1px] z-20;
+  background: var(--skyblue1);
+  content: "";
+}
+.skill .skillLogo {
+  @apply absolute top-[40%] left-1/2 -translate-x-1/2 -translate-y-1/2 h-10;
+}
+.skill .tailwindLogo {
+  @apply h-12;
+}
+.skill .bootstrapLogo {
+  background-image: radial-gradient(white 50%,transparent 50%)
+}
+.skill span {
+  @apply absolute left-1/2 -translate-x-1/2 bottom-8 font-semibold text-lg tracking-[1px];
+}
+.skillsCover {
+  @apply grid w-full place-items-center gap-10 py-4;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
 /* Project Page  */
 .projects {
   @apply flex flex-col;
