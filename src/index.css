@@ -133,6 +133,23 @@ section {
   background: var(--skyblue1);
 }
 
+/* Skills Page  */
+
+.skill svg {
+  @apply relative rotate-[270deg];
+  width: 150px;
+  height: 150px;
+}
+
+.skill svg circle {
+  @apply w-full h-full fill-transparent stroke-neutral-500 stroke-[4];
+  transform: translate(5px, 5px);
+}
+
+.skill svg circle:nth-child(2) {
+  stroke: #ff2972;
+}
+
 /* Project Page  */
 .projects {
   @apply flex flex-col;
