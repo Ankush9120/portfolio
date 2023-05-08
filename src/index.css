@@ -152,7 +152,7 @@ section {
 
 /* Skills Page  */
 .skills {
-  @apply flex flex-col;
+  @apply flex flex-col justify-center gap-6;
 }
 .skill {
   @apply relative w-min;
@@ -162,7 +162,6 @@ section {
   width: 150px;
   height: 150px;
 }
-
 .skill .circle circle {
   @apply w-full h-full fill-transparent stroke-neutral-500 stroke-[4];
   transform: translate(5px, 5px);
@@ -173,7 +172,16 @@ section {
 }
 
 .skill .circle circle:nth-child(2) {
+  /* animation: fillStroke 1s linear 1; */
   stroke-dasharray: 360;
+}
+@keyframes fillStroke {
+  0%{
+    stroke-dasharray: 0;
+  }
+  100% {
+    stroke-dasharray: 100%;
+  }
 }
 
 .skill .dot {
@@ -196,7 +204,7 @@ section {
   @apply h-12;
 }
 .skill .bootstrapLogo {
-  background-image: radial-gradient(white 50%,transparent 50%)
+  background-image: radial-gradient(white 50%, transparent 50%);
 }
 .skill span {
   @apply absolute left-1/2 -translate-x-1/2 bottom-8 font-semibold text-lg tracking-[1px];
@@ -223,15 +231,18 @@ section header span {
   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
   max-height: calc(100vh - 210px);
 }
+.projects .card {
+  @apply grid mx-auto relative rounded-2xl overflow-hidden bg-neutral-500 p-2 h-min w-full;
+  background: rgb(40 40 40);
+}
 .projects .card .imgBox {
-  @apply w-48 rounded-lg overflow-hidden;
+  @apply w-full rounded-lg overflow-hidden;
 }
 .projects .card img {
-  @apply h-full mx-auto;
+  @apply h-full;
 }
-.projects .card {
-  @apply grid mx-auto relative rounded-2xl overflow-hidden bg-neutral-500 p-2 w-min h-min;
-  background: rgb(40 40 40);
+.projects .card p{
+  @apply line-clamp-2;
 }
 /* .projects .view {
   @apply absolute h-full w-full top-0 left-0 z-10 grid place-items-center translate-y-full;

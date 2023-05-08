@@ -17,7 +17,7 @@ const Skills = () => {
       <div className="skillsCover">
         <div className="skill">
           <div className="dot"></div>
-          <svg className="circle">
+          <svg progress className="circle">
             <circle cx={70} cy={70} r={70}></circle>
             <circle cx={70} cy={70} r={70}></circle>
           </svg>
@@ -26,7 +26,7 @@ const Skills = () => {
         </div>
         <div className="skill">
           <div className="dot"></div>
-          <svg className="circle">
+          <svg progress className="circle">
             <circle cx={70} cy={70} r={70}></circle>
             <circle cx={70} cy={70} r={70}></circle>
           </svg>
@@ -35,7 +35,7 @@ const Skills = () => {
         </div>
         <div className="skill">
           <div className="dot"></div>
-          <svg className="circle">
+          <svg progress className="circle">
             <circle cx={70} cy={70} r={70}></circle>
             <circle cx={70} cy={70} r={70}></circle>
           </svg>
@@ -44,7 +44,7 @@ const Skills = () => {
         </div>
         <div className="skill">
           <div className="dot"></div>
-          <svg className="circle">
+          <svg progress className="circle">
             <circle cx={70} cy={70} r={70}></circle>
             <circle cx={70} cy={70} r={70}></circle>
           </svg>
@@ -53,7 +53,7 @@ const Skills = () => {
         </div>
         <div className="skill">
           <div className="dot"></div>
-          <svg className="circle">
+          <svg progress className="circle">
             <circle cx={70} cy={70} r={70}></circle>
             <circle cx={70} cy={70} r={70}></circle>
           </svg>
@@ -62,7 +62,7 @@ const Skills = () => {
         </div>
         <div className="skill">
           <div className="dot"></div>
-          <svg className="circle">
+          <svg progress className="circle">
             <circle cx={70} cy={70} r={70}></circle>
             <circle cx={70} cy={70} r={70}></circle>
           </svg>
@@ -71,7 +71,7 @@ const Skills = () => {
         </div>
         <div className="skill">
           <div className="dot"></div>
-          <svg className="circle">
+          <svg progress className="circle">
             <circle cx={70} cy={70} r={70}></circle>
             <circle cx={70} cy={70} r={70}></circle>
           </svg>

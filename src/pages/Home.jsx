@@ -1,9 +1,9 @@
 import React from "react";
-import MyPic from "../assets/MyPic";
-import Linkdin from "../assets/Linkdin";
-import GitHub from "../assets/GitHub";
-import Insta from "../assets/Insta";
-import Upwork from "../assets/Upwork";
+import MyPic from "/mypic.png";
+import Linkdin from "../assets/handleslogo/Linkdin";
+import GitHub from "../assets/handleslogo/GitHub";
+import Insta from "../assets/handleslogo/Insta";
+import Upwork from "../assets/handleslogo/Upwork";
 
 const Home = () => {
   return (
@@ -36,7 +36,9 @@ const Home = () => {
         </ul>
         <button className="myButton cvButton">Download CV</button>
       </div>
-      <MyPic />
+      <div className="picCover">
+        <img src={MyPic} alt="" />
+      </div>
     </section>
   );
 };

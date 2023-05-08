@@ -1,11 +1,11 @@
 import React from "react";
-import MyPic from "../assets/MyPic";
+import MyPic from "/mypic.png";
 
 const About = () => {
   return (
     <section className="about">
-      <div>
-        <MyPic />
+      <div className="picCover">
+        <img src={MyPic} alt="" />
       </div>
       <div className="aboutText grid gap-4">
         <div>
