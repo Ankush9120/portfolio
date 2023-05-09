@@ -15,7 +15,7 @@ const About = () => {
           <div className="text-2xl font-semibold">Frontend Developer!</div>
         </div>
         <p>
-          Hello , i am Ankush a Frontend Developer as well as a <b>Freelancer</b> . I
+          Hello , i am Ankush a Frontend Developer as well as a <b className="text-[#0ef]">Freelancer</b> . I
           am from India , Madhya Pradesh , Sidhi & currently doing my masters
           (MCA) which is almost going to be completed within a Year .
         </p>

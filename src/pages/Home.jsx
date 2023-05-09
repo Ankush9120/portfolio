@@ -16,7 +16,7 @@ const Home = () => {
         </div>
 
         <p>
-          I am currently doing my masters (MCA) and have great knowledge about{" "}
+          I am currently doing my masters (MCA) and have quite good knowledge about{" "}
           <b>React JS</b> and <b>Tailwind CSS</b> .
         </p>
 

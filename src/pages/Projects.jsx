@@ -43,8 +43,8 @@ const Projects = () => {
         Latest <span>Projects</span>
       </header>
       <div className="cards">
-        {projects.map((data) => {
-          return <Card data={data} />;
+        {projects.map((data,i) => {
+          return <Card key={i} data={data} />;
         })}
       </div>
     </section>
