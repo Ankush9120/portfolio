@@ -5,9 +5,13 @@ import GitHub from "../assets/handleslogo/GitHub";
 const Card = ({ data }) => {
   return (
     <div className="card">
-      <GitHub />
+      <a href={data.github} target="_blank">
+        <GitHub />
+      </a>
       <div className="imgBox">
-        <img src={data.image} alt="" />
+        <a href={data.site} target="_blank">
+          <img src={data.image} alt="" />
+        </a>
       </div>
       {/* <div className="view">
         <div className="absolute text-lg font-semibold bg-white rounded-full p-3.5 shadow cursor-pointer bottom-10 hover:scale-110">
