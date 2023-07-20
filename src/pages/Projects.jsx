@@ -29,8 +29,8 @@ const Projects = () => {
     },
     {
       id: 4,
-      title: "Landing Page",
-      desc: "An Ui for an startup website",
+      title: "Chat Ui",
+      desc: "An Ui for Chat",
       image: "p4.png",
       github: "https://github.com/Ankush9120/landing-page",
       site: "https://kamunity-landing-page.netlify.app/",

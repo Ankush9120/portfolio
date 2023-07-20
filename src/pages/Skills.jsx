@@ -9,6 +9,7 @@ import Bootstrap from "../assets/skillslogo/Bootstrap";
 import Star from "../assets/Star";
 
 const Skills = () => {
+  
   return (
     <section className="skills">
       <header className="pt-4">

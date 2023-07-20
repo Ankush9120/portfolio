@@ -242,6 +242,9 @@ section {
 .projects {
   @apply flex flex-col;
 }
+.projects header {
+  @apply mb-10;
+}
 .projects .github {
   @apply absolute h-8 top-4 right-4 bg-white rounded-full z-20;
 }
@@ -251,13 +254,15 @@ section header {
 section header span {
   color: var(--skyblue1);
 }
-.projects .cards {
+.projects .cards,
+.cards {
   @apply grid gap-4 grow w-full overflow-auto;
   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
   grid-auto-rows: min-content;
   max-height: calc(100vh - 210px);
 }
-.projects .card {
+.projects .card,
+.card {
   @apply flex flex-col mx-auto relative rounded-2xl overflow-hidden bg-neutral-500 p-4 h-full w-full;
   background: rgb(40 40 40);
 }
@@ -314,5 +319,61 @@ section header span {
 .contact form button,
 .myButton {
   @apply rounded-2xl text-black font-semibold p-3 px-5 col-span-2 mx-auto h-min;
+  background: var(--skyblue1);
+}
+
+/* status page  */
+
+.status {
+  display: flex;
+  flex-direction: column;
+}
+
+.status .card-container {
+  grid-template-columns: repeat(auto-fill, minmax(460px, 1fr));
+  height: min-content;
+}
+.status .card {
+  @apply grid gap-5 px-6 py-6;
+  width: 450px;
+}
+.status .card .logo {
+  min-width: 70px;
+  max-width: 70px;
+  max-height: 70px;
+  min-height: 70px;
+}
+.status .card1 .logo {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.status .card .logo img {
+  object-fit: contain;
+}
+.status .card-content {
+  @apply flex relative px-4 pr-0 text-justify;
+}
+.status .card-content img {
+  @apply absolute h-5;
+}
+.status .card-content > img {
+  @apply -top-1 -left-2.5;
+}
+.status .card-content p img {
+  @apply relative inline-block -bottom-1 -right-2.5;
+}
+.status header {
+  @apply mb-10;
+}
+.status .card .role{
+  @apply relative;
+}
+.status .card .role::before {
+  content: "";
+  @apply absolute -bottom-1 right-0;
+  height: 2px;
+  width: 100px;
+  border-radius: 5px;
   background: var(--skyblue1);
 }

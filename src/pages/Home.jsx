@@ -16,22 +16,36 @@ const Home = () => {
         </div>
 
         <p>
-          I am currently doing my masters (MCA) and have quite good knowledge about{" "}
-          <b>React JS</b> and <b>Tailwind CSS</b> .
+          I am currently doing my masters (MCA) and have quite good knowledge
+          about <b>React JS</b> and <b>Tailwind CSS</b> .
         </p>
 
         <ul className="handles">
           <li>
-            <Linkdin />
+            <a
+              href="https://www.linkedin.com/in/ankush-gupta-161350241/"
+              target="_blank"
+            >
+              <Linkdin />
+            </a>
           </li>
           <li>
-            <GitHub />
+            <a href="https://github.com/Ankush9120" target="_blank">
+              <GitHub />
+            </a>
           </li>
           <li>
-            <Insta />
+            <a href="https://www.instagram.com/ig_ankush__/" target="_blank">
+              <Insta />
+            </a>
           </li>
           <li>
-            <Upwork />
+            <a
+              href="https://www.upwork.com/freelancers/~014adcc4e6c1dff8e8"
+              target="_blank"
+            >
+              <Upwork />
+            </a>
           </li>
         </ul>
         <button className="myButton cvButton">Download CV</button>
