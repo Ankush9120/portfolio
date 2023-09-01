@@ -48,7 +48,11 @@ const Home = () => {
             </a>
           </li>
         </ul>
-        <button className="myButton cvButton">Download CV</button>
+        <button className="myButton cvButton">
+          <a href="/resume.pdf" download>
+            Download CV
+          </a>
+        </button>
       </div>
       <div className="picCover">
         <img src={MyPic} alt="" />
