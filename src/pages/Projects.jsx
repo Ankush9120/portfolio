@@ -22,18 +22,10 @@ const Projects = () => {
     {
       id: 3,
       title: "Unit Converter",
-      desc: "An Ui for trading website where you can do trades put orders and all",
+      desc: "An Ui for Unit Converter",
       image: "p3.png",
       github: "https://github.com/Ankush9120/CodeClause_UnitConverter",
       site: "https://clause-unitconverter.netlify.app/",
-    },
-    {
-      id: 4,
-      title: "Landing Page",
-      desc: "Landing Page for startup",
-      image: "p4.png",
-      github: "https://github.com/Ankush9120/landing-page",
-      site: "https://kamunity-landing-page.netlify.app/",
     },
   ];
 
