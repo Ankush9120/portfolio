@@ -13,6 +13,14 @@ const Projects = () => {
     },
     {
       id: 2,
+      title: "Chat.io",
+      desc: "An Ui for Chat Application",
+      image: "p4.png",
+      github: "https://github.com/Ankush9120/react-chat-app",
+      site: "https://clause-unitconverter.netlify.app/",
+    },
+    {
+      id: 3,
       title: "StopWatch / Timer",
       desc: "An Ui for StopWatch and Timer",
       image: "p2.png",
@@ -20,13 +28,14 @@ const Projects = () => {
       site: "https://clause-stopwatch-and-timer.netlify.app/",
     },
     {
-      id: 3,
+      id: 4,
       title: "Unit Converter",
       desc: "An Ui for Unit Converter",
       image: "p3.png",
       github: "https://github.com/Ankush9120/CodeClause_UnitConverter",
-      site: "https://clause-unitconverter.netlify.app/",
+      site: "https://react-chat-io.netlify.app/",
     },
+    
   ];
 
   return (
